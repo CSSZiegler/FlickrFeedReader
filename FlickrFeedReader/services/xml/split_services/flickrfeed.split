@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>other</group>
+        <httpmethod></httpmethod>
+        <id>flickrfeed</id>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>tag</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>dogs</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:flickr="urn:flickr:user" xmlns:media="http://search.yahoo.com/mrss/"&gt;
+   &lt;title&gt;Recent Uploads tagged dogs&lt;/title&gt;
+   &lt;link href="http://api.flickr.com/services/feeds/photos_public.gne?tags=dogs" rel="self"/&gt;
+   &lt;link href="http://www.flickr.com/photos/tags/dogs/" rel="alternate" type="text/html"/&gt;
+   &lt;id&gt;tag:flickr.com,2005:/photos/public/tagged/all/dogs&lt;/id&gt;
+   &lt;icon&gt;http://l.yimg.com/g/images/buddyicon.gif&lt;/icon&gt;
+   &lt;subtitle/&gt;
+   &lt;updated&gt;2013-02-27T18:33:55Z&lt;/updated&gt;
+   &lt;generator uri="http://www.flickr.com/"&gt;Flickr&lt;/generator&gt;
+   &lt;entry&gt;
+      &lt;title&gt;IMG_8965&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8512810421/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512810421&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:55Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:55Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T04:03:55-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T04:03:55-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8512810421/" title="IMG_8965"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8111/8512810421_04745febc3_m.jpg" width="240" height="160" alt="IMG_8965" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8111/8512810421_04745febc3_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;IMG_8778&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8513923338/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8513923338&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:48Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:48Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T03:31:12-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T03:31:12-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8513923338/" title="IMG_8778"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8250/8513923338_faa5a1560b_m.jpg" width="240" height="160" alt="IMG_8778" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8250/8513923338_faa5a1560b_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pull"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="photography"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="weight"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;Howling&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8512813913/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512813913&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:48Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:48Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T03:30:58-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T03:30:58-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8512813913/" title="Howling"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8525/8512813913_76b03968b4_m.jpg" width="240" height="160" alt="Howling" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8525/8512813913_76b03968b4_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pull"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="photography"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="weight"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="howling"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;IMG_8945&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8512811129/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512811129&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:54Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:54Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T04:02:30-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T04:02:30-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8512811129/" title="IMG_8945"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8380/8512811129_8bd0570995_m.jpg" width="240" height="160" alt="IMG_8945" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8380/8512811129_8bd0570995_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;IMG_8941&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8512811351/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512811351&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:53Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:53Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T04:02:08-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T04:02:08-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8512811351/" title="IMG_8941"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8368/8512811351_7071703d2b_m.jpg" width="240" height="160" alt="IMG_8941" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8368/8512811351_7071703d2b_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;IMG_8877&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8512812805/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512812805&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:51Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:51Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T03:42:27-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T03:42:27-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8512812805/" title="IMG_8877"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8088/8512812805_853a696bae_m.jpg" width="240" height="160" alt="IMG_8877" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8088/8512812805_853a696bae_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pull"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="photography"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="weight"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;IMG_8983&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8513921578/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8513921578&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:55Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:55Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T04:08:10-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T04:08:10-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8513921578/" title="IMG_8983"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8094/8513921578_114bd9d50a_m.jpg" width="240" height="160" alt="IMG_8983" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8094/8513921578_114bd9d50a_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;Pippin'...&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8513919406/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8513919406&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:56Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:56Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T06:19:38-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T06:19:38-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8513919406/" title="Pippin'..."&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8108/8513919406_baff89598a_m.jpg" width="240" height="160" alt="Pippin'..." /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8108/8513919406_baff89598a_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;Pippin'&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8512809929/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512809929&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:56Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:56Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T06:18:59-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T06:18:59-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8512809929/" title="Pippin'"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8099/8512809929_49ee54d450_m.jpg" width="240" height="160" alt="Pippin'" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8099/8512809929_49ee54d450_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;IMG_8881&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8513921946/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8513921946&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:51Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:51Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T03:42:39-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T03:42:39-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8513921946/" title="IMG_8881"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8512/8513921946_36d1296483_m.jpg" width="240" height="160" alt="IMG_8881" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8512/8513921946_36d1296483_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;Blue Girl&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8513921326/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8513921326&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:52Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:52Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T04:00:27-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T04:00:27-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8513921326/" title="Blue Girl"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8245/8513921326_4ecae00d59_m.jpg" width="240" height="160" alt="Blue Girl" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8245/8513921326_4ecae00d59_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;Han Solo&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8512813061/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512813061&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:50Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:50Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T03:41:23-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T03:41:23-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8512813061/" title="Han Solo"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8096/8512813061_216d26ecff_m.jpg" width="240" height="160" alt="Han Solo" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8096/8512813061_216d26ecff_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pull"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="photography"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="solo"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="weight"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="han"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;IMG_8793&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moshwithme/8513922960/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8513922960&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:33:49Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:33:49Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T03:33:46-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T03:33:46-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moshwithme/"&amp;gt;Moshwithme&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moshwithme/8513922960/" title="IMG_8793"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8231/8513922960_9efdddb736_m.jpg" width="240" height="232" alt="IMG_8793" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moshwithme&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moshwithme/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;90789546@N05&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8240/buddyicons/90789546@N05.jpg?1360548664#90789546@N05&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8231/8513922960_9efdddb736_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pull"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="photography"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="weight"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;Two King Charles Spaniel&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/moldovia/8512804323/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512804323&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:21:47Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:21:47Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-27T16:18:07-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-27T16:18:07-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/moldovia/"&amp;gt;Moldovia&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/moldovia/8512804323/" title="Two King Charles Spaniel"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8374/8512804323_b49b5cc542_m.jpg" width="240" height="160" alt="Two King Charles Spaniel" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;Moldovia&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/moldovia/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;25963812@N07&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://l.yimg.com/g/images/buddyicon.gif#25963812@N07&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8374/8512804323_b49b5cc542_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pets"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="animals"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pointandshoot"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pointshoot"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="spaniels"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="kingcharlesspaniel"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="fujifilmfinepixhs20exr"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;FFV 10K-5K Feb 2013 Seward Park 2-129&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/dherrick/8512782841/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512782841&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:12:31Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:12:31Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T09:35:39-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T09:35:39-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/dherrick/"&amp;gt;dherrickd&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/dherrick/8512782841/" title="FFV 10K-5K Feb 2013 Seward Park 2-129"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8105/8512782841_b51b2d8ed0_m.jpg" width="240" height="160" alt="FFV 10K-5K Feb 2013 Seward Park 2-129" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;To download this photo, click on &amp;amp;quot;Actions&amp;amp;quot; and choose &amp;amp;quot;View All Sizes&amp;amp;quot; from the pull down menu. Once you get to the All Sizes window, you can select a size and download it by clicking on &amp;amp;quot;Download the X size of this photo.&amp;amp;quot;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;dherrickd&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/dherrick/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;11799433@N07&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8231/buddyicons/11799433@N07.jpg?1361987001#11799433@N07&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8105/8512782841_b51b2d8ed0_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="seattle"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="race"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="10k"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="runner"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="canonef2470mmf28lusm"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="5k"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="sewardpark"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="438"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="2013"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="ffv"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="canon1dmarkiii"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="racingbibs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="fitnessforvitality"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="running10k20134385kcanon1dmarkiiicanonef2470mmf28lusmffvfitnessforvitalityseattlesewardparkdogsraceracingbibsrunnerrunning"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;FFV 10K-5K Feb 2013 Seward Park 2-128&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/dherrick/8512782451/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512782451&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:12:21Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:12:21Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-23T09:35:32-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-23T09:35:32-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/dherrick/"&amp;gt;dherrickd&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/dherrick/8512782451/" title="FFV 10K-5K Feb 2013 Seward Park 2-128"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8228/8512782451_cac81b6f63_m.jpg" width="240" height="160" alt="FFV 10K-5K Feb 2013 Seward Park 2-128" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;To download this photo, click on &amp;amp;quot;Actions&amp;amp;quot; and choose &amp;amp;quot;View All Sizes&amp;amp;quot; from the pull down menu. Once you get to the All Sizes window, you can select a size and download it by clicking on &amp;amp;quot;Download the X size of this photo.&amp;amp;quot;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;dherrickd&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/dherrick/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;11799433@N07&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8231/buddyicons/11799433@N07.jpg?1361987001#11799433@N07&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8228/8512782451_cac81b6f63_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="seattle"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="race"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="10k"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="runner"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="canonef2470mmf28lusm"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="5k"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="sewardpark"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="497"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="496"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="2013"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="ffv"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="canon1dmarkiii"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="racingbibs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="fitnessforvitality"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="running10k20134964975kcanon1dmarkiiicanonef2470mmf28lusmffvfitnessforvitalityseattlesewardparkdogsraceracingbibsrunnerrunning"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;Dog&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/93693581@N08/8513783820/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8513783820&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:19:41Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:19:41Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-27T09:30:36-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-27T09:30:36-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/93693581@N08/"&amp;gt;BlondSweetheart&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/93693581@N08/8513783820/" title="Dog"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8096/8513783820_c2ca1d1014_m.jpg" width="240" height="240" alt="Dog" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;Me and my cute dog :-)&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;BlondSweetheart&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/93693581@N08/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;93693581@N08&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8234/buddyicons/93693581@N08.jpg?1361987445#93693581@N08&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8096/8513783820_c2ca1d1014_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="life"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dog"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="chien"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pet"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pets"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="white"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="cute"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="love"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="me"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="girl"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="beautiful"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="animal"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="animals"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="myself"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="puppy"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="kiss"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="sweet"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="adorable"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="like"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="perro"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="blond"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="bichon"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="maltese"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="perrito"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="chiens"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="whitedog"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="maltezer"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="ilovedogs"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;Puppy kisses :)&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/91229986@N02/8512780213/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512780213&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:11:24Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:11:24Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2013-02-27T12:08:25-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2013-02-27T12:08:25-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/91229986@N02/"&amp;gt;whatsananna&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/91229986@N02/8512780213/" title="Puppy kisses :)"&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8391/8512780213_a566a09228_m.jpg" width="240" height="214" alt="Puppy kisses :)" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;whatsananna&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/91229986@N02/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;91229986@N02&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://l.yimg.com/g/images/buddyicon.gif#91229986@N02&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8391/8512780213_a566a09228_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dog"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="cute"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="love"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="goldenretriever"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="puppy"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="puppies"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="kiss"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dachshund"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="flickrandroidapp:filter=none"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;(Untitled)&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/markestes/8512751867/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512751867&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:00:15Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:00:15Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2012-04-27T16:53:58-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2012-04-27T16:53:58-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/markestes/"&amp;gt;mestes76&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/markestes/8512751867/" title=""&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8370/8512751867_c383ec8b15_m.jpg" width="180" height="240" alt="" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;mestes76&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/markestes/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;27512150@N00&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8229/buddyicons/27512150@N00.jpg?1360036689#27512150@N00&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8370/8512751867_c383ec8b15_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pets"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="minnesota"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="outside"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="zoey"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="duluth"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="042712"/&gt;
+   &lt;/entry&gt;
+   &lt;entry&gt;
+      &lt;title&gt;(Untitled)&lt;/title&gt;
+      &lt;link href="http://www.flickr.com/photos/markestes/8512751833/" rel="alternate" type="text/html"/&gt;
+      &lt;id&gt;tag:flickr.com,2005:/photo/8512751833&lt;/id&gt;
+      &lt;published&gt;2013-02-27T18:00:13Z&lt;/published&gt;
+      &lt;updated&gt;2013-02-27T18:00:13Z&lt;/updated&gt;
+      &lt;flickr:date_taken&gt;2012-04-27T16:53:57-08:00&lt;/flickr:date_taken&gt;
+      &lt;dc:date.Taken&gt;2012-04-27T16:53:57-08:00&lt;/dc:date.Taken&gt;
+      &lt;content type="html"&gt;&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/people/markestes/"&amp;gt;mestes76&amp;lt;/a&amp;gt; posted a photo:&amp;lt;/p&amp;gt;
+	
+&amp;lt;p&amp;gt;&amp;lt;a href="http://www.flickr.com/photos/markestes/8512751833/" title=""&amp;gt;&amp;lt;img src="http://farm9.staticflickr.com/8230/8512751833_01d45f1efa_m.jpg" width="180" height="240" alt="" /&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/content&gt;
+      &lt;author&gt;
+         &lt;name&gt;mestes76&lt;/name&gt;
+         &lt;uri&gt;http://www.flickr.com/people/markestes/&lt;/uri&gt;
+         &lt;flickr:nsid&gt;27512150@N00&lt;/flickr:nsid&gt;
+         &lt;flickr:buddyicon&gt;http://farm9.staticflickr.com/8229/buddyicons/27512150@N00.jpg?1360036689#27512150@N00&lt;/flickr:buddyicon&gt;
+      &lt;/author&gt;
+      &lt;link href="http://farm9.staticflickr.com/8230/8512751833_01d45f1efa_b.jpg" rel="enclosure" type="image/jpeg"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="pets"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="dogs"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="minnesota"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="outside"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="zoey"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="duluth"/&gt;
+      &lt;category scheme="http://www.flickr.com/photos/tags/" term="042712"/&gt;
+   &lt;/entry&gt;
+&lt;/feed&gt;
+</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>feed</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//feed</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>title</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>entry/title</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>feed</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>link</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>entry/link[@rel='alternate']/@ href</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>feed</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>img</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>entry/link[@rel='enclosure']/@href</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>feed</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>authorName</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>entry/author/name</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>feed</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>tags</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>entry/category/@term</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>feed</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://api.flickr.com/services/feeds/photos_public.gne?tags=$tag</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

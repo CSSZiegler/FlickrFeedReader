@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="FlickrFeedReaderCopy" id="FlickrFeedReaderCopy">
+    <container type="dialog" id="hdrDetails" displayname="Popup"/>
+    <container type="dialog" id="hdrHome" displayname="Popup"/>
+    <container type="dialog" id="hdrSettings" displayname="Popup"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHomePageView" displayname="Form"/>
+    <container type="form" id="frmImgDetail" displayname="Form"/>
+    <container type="form" id="frmSettings" displayname="Form">
+        <component type="combobox" id="cmbbxViews" displayname="ComboBox"/>
+        <component type="textbox2" id="txtbxTag" displayname="TextBox2"/>
+    </container>
+    <container type="dialog" id="hdrDetails" displayname="Popup"/>
+    <container type="dialog" id="hdrHome" displayname="Popup"/>
+    <container type="dialog" id="hdrSettings" displayname="Popup"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHomePageView" displayname="Form"/>
+    <container type="form" id="frmImgDetail" displayname="Form"/>
+    <container type="form" id="frmSettings" displayname="Form">
+        <component type="combobox" id="cmbbxViews" displayname="ComboBox"/>
+        <component type="textbox2" id="txtbxTag" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmHomePageView" displayname="Form"/>
+    <container type="form" id="frmSettings" displayname="Form">
+        <component type="combobox" id="cmbbxViews" displayname="ComboBox"/>
+        <component type="textbox2" id="txtbxTag" displayname="TextBox2"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>
