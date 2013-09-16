@@ -27,4 +27,4 @@ The purpose of this application is to showcase how you can integrate external we
  
 **Desktop**
  * DesktopWeb
- * Windwos 8 Desktop
+ * Windows 8 
