@@ -11,8 +11,8 @@ The purpose of this application is to showcase how you can integrate external we
 **Mobile**
  * Android
  * iPhone
- * Window Phone 8
- * Windwos 7.5 Mango Phone
+ * Window  8
+ * Windwos 7.5 Mango
  * BlackBerry
  * SPA Android
  * SPA iPhone
@@ -21,6 +21,7 @@ The purpose of this application is to showcase how you can integrate external we
 **Tablet** 
  * Android
  * iPad
+ * Windows 8
  * SPA iPad
  * SPA Android
  
